@@ -1,7 +1,10 @@
+import java.util.Arrays;
+import java.util.Collections;
+
 
 class Solution{
 	public static int[] quickSort(int[] arr){
-	
+	    Collections.shuffle(Arrays.asList(arr));
 		sort(arr, 0, arr.length - 1);
 		return arr;
 	}
