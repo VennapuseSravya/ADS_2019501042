@@ -11,7 +11,7 @@ class Solution{
             else if (j > hi) a[k] = aux[i++];
             else if (aux[j].compareTo(aux[i])<0) a[k] = aux[j++];
             else a[k] = aux[i++];
-        }
+        }   
     }
 
     private static void sort(String[] a, String[] aux, int lo, int hi)
@@ -21,7 +21,7 @@ class Solution{
         sort (a, aux, lo, mid);
         sort (a, aux, mid+1, hi);
         merge(a, aux, lo, mid, hi);
-    }
+    }  
     public static String[] mergeSort(String[] arr){
         // fill you code Here
         String[] aux = new String[arr.length];
