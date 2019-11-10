@@ -1,6 +1,6 @@
 /**
  * Binary search tree.
- * @author Prasanna.
+ * @author Sravya.
  */
 class BST<Key extends Comparable <Key>,Value>
 {
