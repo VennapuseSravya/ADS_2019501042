@@ -87,7 +87,7 @@ class DeckOfCards {
         DeckOfCards obj = new DeckOfCards();
         Card[] cards = obj.cardArray();
         Collections.shuffle(Arrays.asList(cards));
-        System.out.println("--------- in random order---------");
+        System.out.println("--------- in random order ---------");
         obj.toString(cards);
         System.out.println("--------cards in order---------");
         obj.toString(obj.sort(cards));
