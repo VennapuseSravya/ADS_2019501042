@@ -86,7 +86,7 @@ class Minpq < key extends Comparable < key >> {
         int k = scan.nextInt(); // read user input
         scan.close();
         System.out.println("deleted items");
-        for (int i = 0; i<k; i++){
+        for (int i = 0; i<num-k; i++){
                 System.out.println(obj.delete());
         }
         System.out.println("remainning elements in the array");
