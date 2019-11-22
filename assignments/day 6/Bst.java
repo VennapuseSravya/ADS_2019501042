@@ -11,6 +11,10 @@ public class Bst<Key extends Comparable<Key>, Value> {
             this.val=val;
         }
     }
+    /**this function inserts new key-value pair and overrides the value if same key already presents
+     * @param key , key to be inserted
+     * @param val , value to be inserted
+     */
     void put(Key key, Value val) {
        
         root = put(root,key,val);
@@ -34,6 +38,9 @@ public class Bst<Key extends Comparable<Key>, Value> {
         }    
         return x;
     }
+    /**this function gives min key 
+     * @return min key
+     */
     public Key min() {
         return min(root).key;
     } 
@@ -45,6 +52,9 @@ public class Bst<Key extends Comparable<Key>, Value> {
             return min(x.left); 
         }    
     } 
+    /**this function gives max key
+     * @return max key
+     */
     Key max() {
         return max(root).key;
     }
@@ -57,6 +67,12 @@ public class Bst<Key extends Comparable<Key>, Value> {
         }    
         
     }
+    /**this function returns true if all keys are in between max and min keys
+     * @param x , node
+     * @param min , min key
+     * @param max , max key
+     * @return boolean 
+     */
     boolean isOrdered(Node x,Key min,Key max) {
         if (x == null) {
             return true;
