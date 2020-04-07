@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreeSumProblem",
+            "request": "launch",
+            "mainClass": "ThreeSumProblem"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValuePairs",
+            "request": "launch",
+            "mainClass": "ValuePairs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreeSumProblemoblem",
+            "request": "launch",
+            "mainClass": "ThreeSumProblemoblem"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortedArray",
+            "request": "launch",
+            "mainClass": "SortedArray"
+        }
+    ]
+}
